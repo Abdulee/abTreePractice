@@ -111,6 +111,34 @@
               </div>
             </div>
           </div>
+          <div class="row">
+            <div class="col-sm-6 button-label-container text-right">
+              <label class="button-label">Branching Factor</label>
+            </div>
+            <div class="col-sm-6">
+              <div class="btn-group">
+                <button ng-click="incrBranchingFactor(-1)" type="button" class="btn btn-default">-</button>
+                <button ng-click="incrBranchingFactor(1)" type="button" class="btn btn-default">+</button>
+              </div>
+            </div>
+          </div>
+          <hr/>
+          <div class="row">
+            <div class="col-sm-6 button-label-container text-right">
+              <label class="button-label">Init α</label>
+            </div>
+            <div class="col-sm-6">
+               <input type="text" class="form-control input-sm" ng-model="inputs.alpha" style="width: 80px; display: inline-block;">
+            </div>
+          </div>
+          <div class="row" style="margin-top: 5px;">
+            <div class="col-sm-6 button-label-container text-right">
+              <label class="button-label">Init β</label>
+            </div>
+            <div class="col-sm-6">
+               <input type="text" class="form-control input-sm" ng-model="inputs.beta" style="width: 80px; display: inline-block;">
+            </div>
+          </div>
           <hr/>
           <div class="row">
             <div class="col-sm-6 text-right">
